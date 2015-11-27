@@ -1,5 +1,7 @@
 # ChequeConvert Desktop
-![](https://raw.githubusercontent.com/pirsquare/chequeconvert-desktop/master/icons/icon.png)  Desktop app for converting amount to words used in cheque writing. Built with electron.
+![](https://raw.githubusercontent.com/pirsquare/chequeconvert-desktop/master/icons/icon.png)
+
+Desktop app for converting amount to words used in cheque writing. Built with electron.
 
 ![](https://raw.githubusercontent.com/pirsquare/chequeconvert-desktop/master/screenshot.png)
 
