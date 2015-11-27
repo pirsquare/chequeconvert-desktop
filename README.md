@@ -13,7 +13,7 @@ Desktop app for converting amount to words used in cheque writing. Built with el
 
 
 ## How to build?
-Command below is used to build for win32. Download and unzip source code than in root directory, run commands below to create exe file windows.
+Command below is used to build for win32. [Download and unzip](https://github.com/pirsquare/chequeconvert-desktop/releases) source code than in root directory, run commands below to create exe file for windows.
 ```shell
 npm install
 electron-packager . chequeconvert --platform=win32 --arch=ia32 --version=0.35.0 --icon=icons/icon.ico
