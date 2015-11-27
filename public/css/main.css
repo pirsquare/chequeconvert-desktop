@@ -1,0 +1,110 @@
+/* bitter-regular - latin */
+@font-face {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/bitter-v7-latin-regular.eot");
+
+    /* IE9 Compat Modes */
+    src: local("Bitter-Regular"), url("../fonts/bitter-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bitter-v7-latin-regular.woff2") format("woff2"), url("../fonts/bitter-v7-latin-regular.woff") format("woff"), url("../fonts/bitter-v7-latin-regular.ttf") format("truetype"), url("../fonts/bitter-v7-latin-regular.svg#Bitter") format("svg");
+
+    /* Legacy iOS */
+}
+
+/* bitter-italic - latin */
+@font-face {
+    font-family: 'Bitter';
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/bitter-v7-latin-italic.eot");
+
+    /* IE9 Compat Modes */
+    src: local("Bitter-Italic"), url("../fonts/bitter-v7-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/bitter-v7-latin-italic.woff2") format("woff2"), url("../fonts/bitter-v7-latin-italic.woff") format("woff"), url("../fonts/bitter-v7-latin-italic.ttf") format("truetype"), url("../fonts/bitter-v7-latin-italic.svg#Bitter") format("svg");
+
+    /* Legacy iOS */
+}
+
+/* bitter-700 - latin */
+@font-face {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/bitter-v7-latin-700.eot");
+
+    /* IE9 Compat Modes */
+    src: local("Bitter-Bold"), url("../fonts/bitter-v7-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/bitter-v7-latin-700.woff2") format("woff2"), url("../fonts/bitter-v7-latin-700.woff") format("woff"), url("../fonts/bitter-v7-latin-700.ttf") format("truetype"), url("../fonts/bitter-v7-latin-700.svg#Bitter") format("svg");
+
+    /* Legacy iOS */
+}
+
+body {
+    font-family: 'Bitter';
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.container h4 {
+    text-align: center;
+}
+
+.row-field {
+    margin: 25px auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    min-width: 350px;
+}
+
+button {
+    color: white;
+    background: #de4242;
+    background-image: -webkit-linear-gradient(top, #de4242, #b83939);
+    background-image: -moz-linear-gradient(top, #de4242, #b83939);
+    background-image: -ms-linear-gradient(top, #de4242, #b83939);
+    background-image: -o-linear-gradient(top, #de4242, #b83939);
+    background-image: linear-gradient(to bottom, #de4242, #b83939);
+    text-transform: none;
+    font-size: 20px;
+    height: 48px;
+    padding: 0 50px;
+}
+
+button:active {
+    color: white;
+}
+
+button:focus {
+    color: white;
+}
+
+button:hover {
+    color: white;
+    background: #d62828;
+    background-image: -webkit-linear-gradient(top, #d62828, #a82b2b);
+    background-image: -moz-linear-gradient(top, #d62828, #a82b2b);
+    background-image: -ms-linear-gradient(top, #d62828, #a82b2b);
+    background-image: -o-linear-gradient(top, #d62828, #a82b2b);
+    background-image: linear-gradient(to bottom, #d62828, #a82b2b);
+    text-decoration: none;
+    text-transform: none;
+}
+
+.converted {
+    background-color: #F4F4F4;
+    border-style: dotted;
+    border-color: #BDB7B7;
+    min-height: 100px;
+    max-width: 650px;
+    text-align: center;
+    margin: auto;
+}
+
+.converted p {
+    margin: 40px;
+    font-size: 16px;
+}
